@@ -1,0 +1,103 @@
+ /*
+
+     font-family: 'Inconsolata', monospace;
+
+     font-family: 'Playfair Display', serif;
+
+     font-family: 'Ubuntu', sans-serif;
+
+ */
+
+
+
+ @font-face {
+     font-family: Playbill;
+     src: url(../fonts/PlayfairDisplay-Black.ttf);
+ }
+
+ body{
+     font-size: 1rem;
+     font-family: 'Playfair Display', serif;
+ }
+
+ .brand{
+     font-family: 'Inconsolata', monospace;
+     font-size: 2rem;
+     color: black;
+     letter-spacing: 0.4rem;
+ }
+ .my-85{
+     margin-top: 85px;
+     margin-bottom: 100px;
+ }
+
+ .my-100{
+      margin-top: 100px;
+      margin-bottom: 100px;
+  }
+
+ nav {
+     text-transform: uppercase;
+ }
+ h2{
+     color: #626262;
+     font-size: 1.875rem;
+ }
+ h6{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 0.875rem;
+     font-weight: 100;
+     text-transform: uppercase;
+     color: #cccbca;
+ }
+
+ p{
+     color: #7c7c7c;
+     font-size: 0.875rem;
+     line-height: 1.5rem;
+     text-align: left;
+ }
+
+ .load{
+     border: 1px solid #7c7c7c;
+ }
+ .line {
+     border-bottom: 1px solid #7c7c7c;
+ }
+ .mt-7{
+     margin-top: 70px;
+ }
+
+ .nav-link {
+     color: #626262;
+ }
+
+ span {
+     color:#626262;
+     font-family: 'Playfair Display', serif;
+     font-weight: 700;
+ }
+
+ .ital {
+     font-style: italic;
+
+ }
+
+ input {
+    border: none;
+    width:100%;
+    background-color: #7c7c7c;
+ }
+
+ button {
+    border: none;
+ }
+
+ /* Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+

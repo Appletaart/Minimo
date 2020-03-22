@@ -1,0 +1,199 @@
+ /*
+
+     font-family: 'Inconsolata', monospace;
+
+     font-family: 'Playfair Display', serif;
+
+     font-family: 'Ubuntu', sans-serif;
+
+ */
+
+$logo:#000000;
+$mainGray: #626262;
+$subGray: #7c7c7c;
+$subGray2: #cccbca;
+$subUnder: #b4ad9e;
+$signup:#333333;
+$maylike:#f7f7f7;
+
+body{
+     font-size: 1rem;
+     font-family: 'Playfair Display', serif;
+}
+
+.brand{
+     font-family: 'Inconsolata', monospace;
+     font-size: 2rem;
+     color: $logo;
+     letter-spacing: 0.4rem;
+     text-transform: uppercase;
+}
+
+.px-header{
+    padding: 0 4.4rem;
+}
+
+.my-70{
+     margin-top: 70px;
+     margin-bottom: 70px;
+}
+
+.my-100{
+     margin-top: 100px;
+     margin-bottom: 100px;
+}
+
+.mt-7{
+     margin-top: 70px;
+}
+
+nav {
+     text-transform: uppercase;
+}
+
+h2{
+     font-size: 1.875rem;
+     color:$mainGray;
+}
+
+h6{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 0.875rem;
+     font-weight: 100;
+     text-transform: uppercase;
+     color: $subUnder;
+}
+
+p{
+     color: $mainGray;
+     font-size: 0.875rem;
+     line-height: 1.5rem;
+     text-align: left;
+}
+
+.line {
+     border-bottom: 1px solid $subGray;
+}
+
+
+.nav-link{
+     color: $mainGray;
+}
+
+.nav-link:hover {
+     color: $subGray;
+}
+
+.nav-link-share:hover {
+     color: $mainGray;
+}
+
+.nav-link-share{
+     color: $subUnder;
+     font-family: 'Ubuntu', sans-serif;
+}
+
+.share{
+      color: $subUnder;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+}
+
+.maylike{
+      color: $subUnder;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 0.875rem;
+}
+
+span {
+     color: $mainGray;
+     font-family: 'Playfair Display', serif;
+     font-weight: 700;
+}
+
+.ital {
+    font-style: italic;
+
+}
+
+.signup{
+    color: $signup;
+}
+
+.bg-maylike{
+    background-color:$maylike;
+}
+
+.input-sign {
+    border: none;
+    width:100%;
+    line-height: 40px;
+}
+
+button {
+    border: none;
+}
+
+.load{
+    font-size: 1.875rem;
+}
+
+/*Photodiary page*/
+
+ .border{
+     @include border-radius(5px);
+ }
+
+.input-discuss{
+     font-family: 'Ubuntu', sans-serif;
+     font-size: 0.875rem;
+     font-weight: 100;
+     text-transform: uppercase;
+     color: white;
+     padding: 40px 30px;
+}
+
+/*music page*/
+
+.icon-sidebar{
+    font-size: 1.275rem;
+}
+
+h3{
+     font-family: 'Playfair Display', serif;
+     font-size: 1rem;
+     font-weight: 300;
+     text-transform: uppercase;
+     color: $mainGray;
+}
+
+.sidebar{
+    color: $subUnder;
+    font-size: 0.8rem;
+    padding-left: 10px;
+}
+
+/*************************
+SCREENS LARGER THEN MOBILE
+**************************/
+/*sm*/
+@media (min-width: 576px) {  }
+
+/*md*/
+@media (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+
+      }
+
+/*lg
+@media (min-width: 992px) {
+  }
+*/
+/*xl*/
+@media (min-width: 1200px) { }
+
+
+
+
